@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+    <title>Track Your SEO & PPC Efforts</title>
+
+    <meta name="title" content="Track Your SEO & PPC Efforts" />
+    <meta name="description" content="Use Position Tracking to monitor your keywords, landing pages, domains, and competitors." />
+
+    <meta property="og:image" content="https://static.semrush.com/file/image/sharing_pictures/position-tracking-new_EN.png" />
+    <meta name="twitter:image" content="https://static.semrush.com/file/image/sharing_pictures/position-tracking-new_EN.png" />
+    <meta itemprop="image" content="https://static.semrush.com/file/image/sharing_pictures/position-tracking-new_EN.png" />
+
+    <script>
+        window.lang = "en";
+    </script>
+
+    <script>
+        // Send FB cookie to cs5
+        function getDm5() {
+            var n, i = new RegExp("(_fbp|_fbc)=([^\\s;]*)", "g"),
+                o = document.cookie.match(i);
+            n = o ? "{" + o.map(n => n.split("=").map(n => '"' + n + '"').join(": ")).join(", ") + "}" : "{}";
+            return n;
+        }
+
+        function getEmail() {
+            try {
+                return localStorage.getItem('email');
+            } catch {
+                return null
+            }
+        }
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'dimension5': getDm5(),
+            '&email': getEmail(),
+            'forceSSL': true,
+            'groupOfPages': 'lp:position-tracking-new-1'
+        });
+    </script>
+
+    <!-- anti-flicker snippet (recommended)  -->
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <script>
+        (function(a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y;
+            h.start = 1 * new Date;
+            h.end = i = function() {
+                s.className = s.className.replace(RegExp(' ?' + y), '')
+            };
+            (a[n] = a[n] || []).hide = h;
+            setTimeout(function() {
+                i();
+                h.end = null
+            }, c);
+            h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+            'OPT-WP5X7LC': true
+        });
+    </script>
+    <!-- anti-flicker snippet end  -->
+
+    <!-- google optimize -->
+    <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-WP5X7LC"></script>
+    <!-- end google optimize -->
+
+    <!-- Google Tag Manager -->
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                (
+                    function(w, d, s, l, i) {
+                        w[l] = w[l] || [];
+                        w[l].push({
+                            'gtm.start': new Date().getTime(),
+                            event: 'gtm.js'
+                        });
+                        var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s),
+                            dl = l != 'dataLayer' ? '&l=' + l : '';
+                        j.async = true;
+                        j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                        f.parentNode.insertBefore(j, f);
+                    })(window, document, 'script', 'dataLayer', 'GTM-5K82J2');
+            }, 3000);
+        });
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Trebuchet starts -->
+    <script>
+        (function() {
+            (window['dataLayer'] = window['dataLayer'] || []).push(arguments);
+        })('event', 'optimize.callback', {
+            callback: (variant, expId, container) =>
+                window['dataLayer'].push({
+                    event: 'semrush',
+                    eventCategory: 'exp.init',
+                    eventAction: expId,
+                    eventLabel: variant,
+                    eventValue: null,
+                }),
+        });
+    </script>
+    <!-- Trebuchet ends -->
+
+    <link rel="stylesheet" href="../../js/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="../css/framework.css?3">
+
+    <link rel="stylesheet" href="../css/style.css?27">
+    <link rel="icon" href="../img/favicon.ico?1">
+
+    <!-- script -->
+    <!-- <link rel="stylesheet" href="../../js/gdpr.css"> -->
+    <script src="../../js/jquery-1.11.2.min.js"></script>
+
+    <!-- for safari forms -->
+    <script src="../../js/js-webshim/minified/polyfiller.js"></script>
+</head>
+
+<body>
+    <script async src="https://static.semrush.com/ref-code-script/js/1.3.1/ref.js" onload="ReferralCookieHandler.default()"></script>
+
+    <!-- Google Tag Manager All-PPC -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5K82J2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager All-PPC -->
+
+
+    <!-- main-screen -->
+
+    <section class="main-screen">
+        <div class="nav">
+            <div class="container">
+                <div class="nav-info">
+                    <div class="row align-items-center justify-content-between">
+                        <!-- logo -->
+                        <div class="col-12  col-lg-3 header-logo">
+                            <a href="https://www.semrush.com/" target="blank"><img src="../img/logo-white.svg" width="196" alt=""></a>
+                        </div>
+                        <!-- logo black -->
+                        <div class="col-12  col-lg-3 header-logo__black">
+                            <a href="https://www.semrush.com/" target="blank"> 
+                            <svg width="196" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M134.715 10.168c0-3.193-1.964-5.518-5.73-5.518H116.82v16.553h3.995v-5.649h4.732l4.633 5.649h4.503v-.36l-4.503-5.387c2.833-.573 4.535-2.636 4.535-5.288zm-6.172 2.046h-7.712V8.088h7.712c1.424 0 2.341.753 2.341 2.063 0 1.343-.884 2.063-2.341 2.063zM195.115 4.65h-3.75v6.287h-10.069V4.65h-4.044v16.57h4.044v-6.534h10.069v6.533h3.75V4.65zM106.128 4.65l-4.453 13.933h-.246L96.959 4.65h-7.121v16.57h3.814V7.612h.23l4.453 13.606h6.14l4.47-13.606h.229V21.22h3.929V4.65h-6.975zM62.61 11.428c-1.408-.147-4.044-.393-5.453-.54-1.391-.147-2.193-.557-2.193-1.474 0-.884.85-1.62 4.29-1.62 3.044 0 5.844.654 8.284 1.833v-3.7c-2.44-1.163-5.141-1.736-8.498-1.736-4.715 0-7.973 1.965-7.973 5.305 0 2.816 1.915 4.355 5.747 4.781 1.391.147 3.749.36 5.403.491 1.8.148 2.325.704 2.325 1.523 0 1.13-1.261 1.817-4.454 1.817-3.242 0-6.533-1.064-8.874-2.554v3.815c1.883 1.26 5.125 2.325 8.743 2.325 5.141 0 8.449-1.981 8.449-5.534.032-2.685-1.736-4.306-5.796-4.732zM71.058 4.65v16.57h15.44v-3.39H74.873v-3.356H86.3v-3.357H74.873V8.04h11.624V4.65H71.059zM168.984 11.428c-1.408-.147-4.044-.393-5.453-.54-1.391-.147-2.193-.557-2.193-1.474 0-.884.851-1.62 4.289-1.62 3.046 0 5.845.654 8.285 1.833v-3.7c-2.44-1.163-5.141-1.736-8.498-1.736-4.715 0-7.973 1.965-7.973 5.305 0 2.816 1.915 4.355 5.747 4.781 1.391.147 3.749.36 5.403.491 1.801.148 2.325.704 2.325 1.523 0 1.13-1.261 1.817-4.454 1.817-3.242 0-6.533-1.064-8.874-2.554v3.815c1.883 1.26 5.125 2.325 8.743 2.325 5.141 0 8.449-1.981 8.449-5.534.032-2.685-1.736-4.306-5.796-4.732zM150.728 4.65v8.481c0 3.21-1.948 4.977-4.879 4.977-2.947 0-4.879-1.735-4.879-5.026V4.65h-3.979v8.055c0 6.01 3.75 8.989 8.923 8.989 4.961 0 8.809-2.849 8.809-8.792V4.65h-3.995z" fill="#000"/><path d="M37.38 12.836c0 .803-.41.934-1.425.934-1.08 0-1.277-.18-1.392-1-.213-2.079-1.62-3.847-3.979-4.043-.753-.066-.933-.344-.933-1.277 0-.868.131-1.277.802-1.277 4.094.016 6.926 3.307 6.926 6.663zm5.959 0C43.339 6.598 39.115 0 29.356 0H9.971c-.393 0-.639.196-.639.557 0 .196.148.376.279.474.704.557 1.752 1.18 3.127 1.867a45.38 45.38 0 003.438 1.539c.442.18.606.377.606.622 0 .344-.245.557-.72.557H.672c-.46 0-.672.295-.672.59 0 .245.082.458.295.67 1.244 1.31 3.242 2.882 6.14 4.7a88.617 88.617 0 008.186 4.502c.426.197.557.426.557.671-.017.279-.23.508-.72.508H7.4c-.392 0-.622.213-.622.54 0 .18.148.41.344.59 1.605 1.457 4.175 3.045 7.597 4.502C19.287 24.837 23.921 26 29.127 26 39 26 43.34 18.616 43.34 12.836zm-12.886 8.858c-4.846 0-8.89-3.946-8.89-8.858 0-4.846 4.044-8.726 8.89-8.726 4.978 0 8.858 3.88 8.858 8.726-.016 4.912-3.897 8.858-8.858 8.858z" fill="#FF642D"/></svg>               
+                          </a>
+                        </div>
+                        <!-- logo mob-->
+                        <div class="col-4 col-md-4 header-logo__mob">
+                            <a href="https://www.semrush.com/" target="blank"><img src="../img/logo-mob.svg" height="36" width="44" alt=""></a>
+                        </div>
+
+                        <!-- navigation-button -->
+                        <div class="col-8 col-sm-8 col-md-4 col-lg-4 header-button">
+                            <a href="https://www.semrush.com/signup/?src=lp-position-tracking-new-1-en&trial=force&redirect_to=%2Fposition-tracking%2F" target="_blank" class="line_button cta_line_button">Try It Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="container">
+            <div class="row align-items-center content">
+                <div class="col-12 col-lg-6 main-screen__text" data-aos="fade-left">
+                    <h1>Propel Your<br> Rankings<br> to the Stars</h1>
+                    <p class="subtitle">Track website positions and rankings for<br> any site. Understand how to rank higher<br> and outshine your competitors.</p>
+                    <a href="https://www.semrush.com/signup/?src=lp-position-tracking-new-1-en&trial=force&redirect_to=%2Fposition-tracking%2F" target="_blank" class="button cta_hero_button">Try It Free</a>
+                </div>
+                <!-- desktop -->
+                <div class="col-12 col-lg-6 main-screen__pic">
+                    <picture>
+                        <source srcset="../img/main-pic_1x.webp,
+                                    ../img/main-pic_2x.webp 2x" type="image/webp" />
+                        <source srcset="../img/main-pic_2x.png 2x" />
+                        <img src="../img/main-pic_1x.png" alt="main" />
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main-screen ends -->
+
+
+    <!-- clients-screen -->
+
+    <section class="clients-screen">
+        <div class="container">
+            <div class="trusted-block">
+                <div class="line"></div>
+                <div class="clients-screen__text">
+                    <p>
+                        <nobr>TRUSTED BY</nobr>
+                    </p>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img src="../img/clients_desktop.svg" class="clients_desktop" loading="lazy" alt="" />
+                    <img src="../img/clients_tablet.svg" class="clients_tablet" loading="lazy" alt="" />
+                    <img src="../img/clients_mob.svg" class="clients_mob" loading="lazy" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients-screen ends -->
+
+
+    <!-- slider-screen -->
+
+    <section class="slider-screen">
+        <div class="container">
+            <div class="slider-screen__blocks siema" id="siema-slider">
+                <!-- 1 -->
+                <div class="slider-screen__blocks__block slide">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-1_1x.webp,
+                                ../img/p-1_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-1_2x.png 2x" />
+                            <img src="../img/p-1_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Eric M.</p>
+                            <p class="profession">Co-founder & VP of SEO</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">The overall experience has been extremely helpful & positive. This has helped us launch additional products & services for our customers and deliver exceptional value.</p>
+                </div>
+
+                <!-- 2 -->
+                <div class="slider-screen__blocks__block slide">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-2_1x.webp,
+                                ../img/p-2_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-2_2x.png 2x" />
+                            <img src="../img/p-2_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Lauren V.</p>
+                            <p class="profession">SEO Content Writer</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">Overall, Semrush has been a game-changer for my SEO strategy. It's saved me a ton of time and guesswork about which keywords to target, and I've been able to help my clients grow their organic traffic more efficiently.</p>
+                </div>
+
+                <!-- 3 -->
+                <div class="slider-screen__blocks__block slide">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-3_1x.webp,
+                                ../img/p-3_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-3_2x.png 2x" />
+                            <img src="../img/p-3_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Brian R.</p>
+                            <p class="profession">VP of Marketing & Business<br> Development</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">A great way to learn and implement SEO. As I said, we've increased our keyword list, grown our SERP results, and are on our way to being more visible and relevant on search.</p>
+                </div>
+
+                <!-- 4 -->
+                <div class="slider-screen__blocks__block slide">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-4_1x.webp,
+                                ../img/p-4_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-4_2x.png 2x" />
+                            <img src="../img/p-4_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Nick C.</p>
+                            <p class="profession">Marketing Manager</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">I received some good demo work from the sales rep. He was constantly in contact and always trying to help me, not overly push me.</p>
+                </div>
+
+                <!-- 5 -->
+                <div class="slider-screen__blocks__block slide">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-5_1x.webp,
+                                ../img/p-5_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-5_2x.png 2x" />
+                            <img src="../img/p-5_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Vijeta C.</p>
+                            <p class="profession">Senior Manager-Marketing<br> & Communications</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">We have a great experience & feel that it's a must tool for increasing the efficiency of campaigns, understanding the buyer journey of our customers, and increasing customer retention.</p>
+                </div>
+
+                <!-- 6 -->
+                <div class="slider-screen__blocks__block slide mr-0">
+                    <div class="slider-screen__blocks__block-author">
+                        <picture>
+                            <source srcset="../img/p-6_1x.webp,
+                                ../img/p-6_2x.webp 2x" type="image/webp" />
+                            <source srcset="../img/p-6_2x.png 2x" />
+                            <img src="../img/p-6_1x.png" alt="photo" />
+                        </picture>
+                        <div class="slider-screen__blocks__block-author__text">
+                            <p class="author">Robert T.</p>
+                            <p class="profession">Founder & CEO</p>
+                        </div>
+                    </div>
+                    <img src="../img/stars.svg" alt="stars">
+                    <p class="text">Semrush dramatically changed how we do business from a marketing standpoint. The marketing insight into our competitors is something we analyze daily.</p>
+                </div>
+            </div>
+
+            <!-- navigation -->
+            <div class="row justify-content-end">
+                <div class="col-12 d-flex justify-content-end">
+                    <div class="slider-screen__navigation">
+                        <div class="slider-screen__navigation__buttons">
+                            <button class="prev"></button>
+                            <button class="next"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review-screen end -->
+
+
+
+    <!-- tools-screen -->
+
+    <section class="tools-screen top112">
+        <div class="bg-green-2"></div>
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row">
+                <!-- 1 -->
+                <div class="col-xs-12 col-md-4 col-lg-4 first_c">
+                    <div class="tools-screen__card c1 bottom32 text-left ">
+                        <div>
+                            <span class="bold desc">TRACK YOUR</span>
+                            <h2><span class="color">SEO & PPC<br class="sacred"> EFFORTS</span></h2>
+                        </div>
+                        <!-- <div class="card-text top16">
+                            <p>Collect powerful Semrush data in a single PDF</p>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="tools-screen__card c2 bottom32">
+
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-xs-3 col-md-12 col-lg-12 text-center">
+                                    <svg width="89" height="89" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0)">
+                                        <path d="M54.3335 13.3618C50.9503 13.3157 44.9735 13.2888 40.7203 13.2888C29.9077 13.2888 17.8283 13.8087 10.553 14.1891C6.7021 14.392 3.60384 17.4607 3.32788 21.3409C2.93903 26.7554 2.5 35.023 2.5 44.5333C2.5 56.3895 2.7885 63.9597 3.10209 68.6134C3.35296 72.4809 6.4136 75.575 10.2519 75.8032C15.6959 76.1329 25.1286 76.5006 40.5823 76.5006C51.3949 76.5006 63.4744 75.9807 70.7497 75.6003C74.6006 75.3974 77.6988 72.3288 77.9748 68.4486C78.3511 63.0214 78.7901 54.7664 78.7901 45.2561C78.7901 37.1617 78.6556 34.3346 78.4705 29.7998" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M2.90905 28.9814H56.993" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.7267 23.2176C12.7207 23.2176 13.5264 22.3481 13.5264 21.2754C13.5264 20.2028 12.7207 19.3333 11.7267 19.3333C10.7327 19.3333 9.92691 20.2028 9.92691 21.2754C9.92691 22.3481 10.7327 23.2176 11.7267 23.2176Z" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M18.7833 23.2176C19.7773 23.2176 20.5831 22.3481 20.5831 21.2754C20.5831 20.2028 19.7773 19.3333 18.7833 19.3333C17.7893 19.3333 16.9835 20.2028 16.9835 21.2754C16.9835 22.3481 17.7893 23.2176 18.7833 23.2176Z" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M26.0342 23.2176C27.0282 23.2176 27.8339 22.3481 27.8339 21.2754C27.8339 20.2028 27.0282 19.3333 26.0342 19.3333C25.0402 19.3333 24.2344 20.2028 24.2344 21.2754C24.2344 22.3481 25.0402 23.2176 26.0342 23.2176Z" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M87.4001 20.3729C81.0789 31.9254 66.2568 35.086 56.2301 28.3289C53.3965 26.4761 50.8898 23.7515 49.146 20.2639" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M87.4 20.2638C79.88 5.76867 57.1019 4.46084 49.0369 20.2638" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M68.2186 26.258C71.5291 26.258 74.2129 23.6231 74.2129 20.3728C74.2129 17.1225 71.5291 14.4875 68.2186 14.4875C64.9081 14.4875 62.2244 17.1225 62.2244 20.3728C62.2244 23.6231 64.9081 26.258 68.2186 26.258Z" stroke="#171A22" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29 43H19V67H29V43Z" stroke="#171A22" stroke-width="2.13825" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M46.0074 38H36.0074V67H46.0074V38Z" stroke="#171A22" stroke-width="2.13825" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M63.0074 49H53.0074V67H63.0074V49Z" stroke="#171A22" stroke-width="2.13825" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0">
+                                        <rect width="88" height="88" fill="white" transform="translate(0.5 0.907959)"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>
+                                </div>
+                                <div class="col-xs-9 col-md-12 col-lg-12 top16">
+                                    <h5>Keep an Eye<br class="sacred">on Competitors</h5>
+                                    <p class="top8">And how they rank<br class="sacred"> in search results</p>
+                                </div>
+                            </div>
+                            <!-- <h5>
+                                Keep an Eye<br class="sacred"> 
+                                on Competitors
+                            </h5>
+                            <p class="top8">And how they rank<br class="sacred"> 
+                                in search results</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <div class="tools-screen__card c3 bottom32">
+
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-xs-3 col-md-12 col-lg-12 text-center">
+                                    <svg width="89" height="89" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M41.9 55.0081C45.766 55.0081 48.9 51.8741 48.9 48.0081C48.9 44.1421 45.766 41.0081 41.9 41.0081C38.034 41.0081 34.9 44.1421 34.9 48.0081C34.9 51.8741 38.034 55.0081 41.9 55.0081Z" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.9 78.5081C25.1 78.5081 11.4 64.8081 11.4 48.0081C11.4 31.2081 25.1 17.5081 41.9 17.5081C58.7 17.5081 72.4 31.2081 72.4 48.0081C72.4 64.8081 58.7 78.5081 41.9 78.5081Z" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.9 70.308C29.6 70.308 19.6 60.308 19.6 48.008C19.6 35.708 29.6 25.708 41.9 25.708C54.2 25.708 64.2 35.708 64.2 48.008C64.2 60.308 54.2 70.308 41.9 70.308Z" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.9 62.208C34.1 62.208 27.8 55.908 27.8 48.108C27.8 40.308 34.1 33.908 41.9 33.908C49.7 33.908 56 40.208 56 48.008C56 55.808 49.7 62.208 41.9 62.208Z" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.9 55.0081C45.766 55.0081 48.9 51.8741 48.9 48.0081C48.9 44.1421 45.766 41.0081 41.9 41.0081C38.034 41.0081 34.9 44.1421 34.9 48.0081C34.9 51.8741 38.034 55.0081 41.9 55.0081Z" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.9 48.008L66.7 23.208L67.1 13.908L74.9 6.90796V15.208L82.6 14.708L75.7 22.808L66.7 23.208" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.5 48.0081H19.6" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M64.2 48.0081H78" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.7 11.5081V25.8081" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M41.7 70.3079V83.1079" stroke="#171A22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+
+                                </div>
+                                <div class="col-xs-9 col-md-12 col-lg-12 top16">
+                                    <h5>Identify Opportunities</h5>
+                                    <p class="top8">To reach your audience<br class="sacred"> based on market trends</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- tools-screen -->
+
+
+
+
+    <!-- steps-screen -->
+
+    <section class="steps-screen top128">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-lg-12">
+                    <h2>Get In Better Position</h2>
+                </div>
+                <!-- <div class="top16">
+                    <p>200+ widgets to choose from</p>
+                </div> -->
+            </div>
+            <!-- 1 -->
+            <div class="row steps-screen__step justify-content-between align-items-center top80" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-text ">
+                    <h3><span class="color2">Beat</span> Your Online Rivals</h3>
+                    <div class="top24 content">
+                        <p>Use Position Tracking to monitor your keywords, search intent landing pages, domains, and competitors.<br><br> Identify which websites you are competing with on target keywords and see where you can beat your competition.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-pic s1">
+                    <img src="../img/src_1.svg" class="web" alt="">
+                    <img src="../img/mob1.svg" class="mob" alt="">
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row steps-screen__step justify-content-between align-items-center top8" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-pic s2">
+                    <img src="../img/src_2.svg" class="web" alt="">
+                    <img src="../img/mob2.svg" class="mob img_s" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-text order-lg-2">
+                    <h3>Choose Domains & Keywords to <span class="color2">Monitor</span></h3>
+                    <div class="top24 content">
+                        <p>Get daily rankings for domains, subdomains, subfolders and URLs for <span class="bold">up to 5,000 Keywords</span>.<br><br> See your domain’s visibility, ranking trends, and estimated traffic. Leverage top-ranking keywords and
+                            boost low performers.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="row steps-screen__step justify-content-between align-items-center top8" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-text">
+                    <h3><span class="color2">Compare</span> Positions &<br class="sacred"> See Ranking Distributions</h3>
+                    <div class="top24 content">
+                        <p>Compare your site against select competitors and review performance over time. <br><br> Understand which website pages and search intent bring the most traffic to your site.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-pic s3">
+                    <img src="../img/src_3.svg" class="web" alt="">
+                    <img src="../img/mob3.svg" class="mob" alt="">
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="row steps-screen__step justify-content-between align-items-center top8" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-pic s2">
+                    <img src="../img/src_4.svg" class="web" alt="" width="100%">
+                    <img src="../img/mob4.svg" class="mob" alt="">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-text order-lg-2">
+                    <h3><span class="color2">Discover</span> Competitors & Compare Performance</h3>
+                    <div class="top24 content">
+                        <p>Discover local and global competitors and evaluate their best and worst performing pages. <br><br> Track and compare up to <span class="bold">20 rivals side-by-side</span> and identify keyword targets as their positions decline.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="row steps-screen__step justify-content-between align-items-center top8" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-text">
+                    <h3>Leverage Data<br class="sacred"> and <span class="color2">Track Progress</span></h3>
+                    <div class="top24 content">
+                        <p>See your website’s visibility, estimated traffic, and keyword positions, PLUS the market trends for these metrics. <br><br> Track and compare <span class="bold">up to 10 geographic locations and devices</span> in a single project.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 steps-screen__step-pic s3">
+                    <img src="../img/src_5.svg" class="web" alt="">
+                    <img src="../img/mob6.svg?1" class="mob " alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- steps-screen ends -->
+
+    <!-- video-screen -->
+
+
+
+    <!-- video-screen ends -->
+
+    <!-- cta-screen -->
+
+    <div class="cta-screen">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="cta-screen__block">
+                        <div class="cta-screen__block__text">
+                            <h2>Start tracking positions today and outshine your competitors</h2>
+                            <a href="https://www.semrush.com/signup/?src=lp-position-tracking-new-1-en&trial=force&redirect_to=%2Fposition-tracking%2F" target="blank" class="button cta_footer_button" style="white-space: nowrap">Try It Free</a>
+                        </div>
+                        <div class="cta-screen__block__pic">
+                            <picture class="cta-screen__block__pic__img" alt="">
+                                <source srcset="../img/banner_1x.webp,
+                                          ../img/banner_2x.webp 2x" type="image/webp" />
+                                <source srcset="../img/banner_2x.png 2x" />
+                                <img src="../img/banner_1x.png" alt="content-pic" />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cta-screen ends -->
+
+
+    <!-- awards-screen -->
+
+    <section class="awards-screen">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img src="../img/awards-desktop.svg" class="desktop" loading="lazy" alt="awards">
+                    <img src="../img/awards-tablet.svg" class="tablet" loading="lazy" alt="awards">
+                    <img src="../img/awards-mob.svg" class="mob" loading="lazy" alt="awards">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- awards-screen end -->
+
+    <!-- footer starts -->
+    <div class="footer-line">
+        <div class="container">
+            <div class="footer-line__logo">
+                <a href="https://www.semrush.com/" target="_blank"><img src="../img/logo.svg" width="165" alt=""></a>
+            </div>
+
+            <a class="terms-privacy" href="https://www.semrush.com/company/legal/terms-of-service/"><span>Terms of
+                Use</span></a>
+            <a class="terms-privacy" href="https://www.semrush.com/company/legal/privacy-policy/"><span>Privacy
+                Policy</span></a>
+
+            <div class="footer-year">
+                <span>© 2008 - <i class="year"></i> Semrush. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer ends -->
+    <script src="../js/script.js?8"></script>
+
+    <!-- local analytics.js file -->
+    <script src="../js/analytics.js?2"></script>
+
+    <!-- common analytics.js file-->
+    <script src="../../js/analytics.js"></script>
+
+
+    <!-- prerender -->
+    <script>
+        (function() {
+            var hint = document.createElement('link');
+            hint.rel = 'prerender';
+            hint.as = 'document';
+            hint.href = '/signup/';
+            document.head.appendChild(hint);
+        }());
+    </script>
+
+
+    <!-- slider -->
+    <script src="../js/siema.js"></script>
+
+</body>
+
+</html>
